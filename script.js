@@ -1,5 +1,5 @@
 // 📅 غيّر تاريخ عيد الميلاد هنا
-let birthday = new Date("2026-01-07T00:00:00").getTime();
+let birthday = new Date("2025-01-07T00:00:00").getTime();
 
 function updateCountdown() {
   let now = new Date().getTime();
@@ -7,7 +7,7 @@ function updateCountdown() {
 
   if (diff <= 0) {
     document.querySelector(".container").innerHTML =
-      "<h1>🎉 كل سنة وانت طيب ياأجمل انسان ف الدنيا 🎂</h1>";
+      "<h1>🎉 كل سنة وانت طيب ياأجمل لالا ف الدنيا 🎂</h1>";
     startConfetti();
     return;
   }
